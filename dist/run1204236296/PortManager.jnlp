@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PortManager.jnlp">
+  <information>
+    <title>PortManager</title>
+    <vendor>dhana</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PortManager.jar" size="4772" download="eager" />
+    <jar href="lib\org.nmap4j-1.1.0-javadoc.jar" size="422242" download="eager" />
+    <jar href="lib\org.nmap4j-1.1.0-sources.jar" size="94668" download="eager" />
+    <jar href="lib\org.nmap4j-1.1.0.jar" size="71700" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PortManager" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="portmanager.PortManager"  name="PortManager" />
+  <update check="always"/>
+</jnlp>
